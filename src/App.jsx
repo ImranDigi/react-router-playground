@@ -8,11 +8,14 @@ import Products from "./Pages/Product";
 import ProductDetails from "./Pages/ProductDetails";
 
 function NotFound() {
+
+  //Thanks 
+
   return (
     <div className="rounded-2xl bg-white p-8 text-center shadow-sm">
       <h1 className="text-3xl font-bold text-red-600">404 - Page Not Found</h1>
       <Link to="/" className="mt-4 inline-block text-blue-600 underline">
-        Go to Home
+        Go to Home!
       </Link>
     </div>
   );
